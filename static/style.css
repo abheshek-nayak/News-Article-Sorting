@@ -1,0 +1,27 @@
+
+
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #272829;
+  text-align: 'center'
+}
+
+a {
+  color: #0563bb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #067ded;
+  text-decoration: none;
+}
+
+h1{
+  font-family: "Raleway", sans-serif;
+  font-size: 20 ;
+}
+
+
+
+
+

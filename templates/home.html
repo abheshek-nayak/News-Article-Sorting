@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel='stylesheet' href="{{url_for('static',path='/style.css')}}"type ="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST API</title>
+</head>
+<body>
+
+<h1>{{header}}</h1>
+  <p >Please Enter the News Snippet to get the Topic</p>
+  <form method="post">
+    <textarea id="w3review" name="news" rows="4" cols="50"></textarea> 
+    <button type="submit" class="btn btn-dark">Submit</button>
+    
+</form>
+  <p>This News Article is about :{{ Output }}</p>
+</body>
+</html>
+
+
+
