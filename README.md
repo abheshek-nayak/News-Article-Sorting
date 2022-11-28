@@ -1,2 +1,2 @@
-# News-Classification
-# Ineuron Project
+# News-Classification-
+
