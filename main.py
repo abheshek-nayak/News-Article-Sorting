@@ -87,7 +87,6 @@ def root(request: Request, news: str = Form(...)):
     return templates.TemplateResponse('home.html', context={'request': request, 'Output': types[prediction]})
 
 
-if __name__ == '__main__':
-    uvicorn.run(app, host='0.0.0.0', port=8000)
+
 
 
