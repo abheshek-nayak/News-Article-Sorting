@@ -6,6 +6,7 @@ from keras.preprocessing.text import text_to_word_sequence
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
+import nltk
 from nltk.corpus import wordnet
 import pickle
 import nltk
@@ -14,6 +15,7 @@ import uvicorn
 
 new_sort_model = pickle.load(open("news_sorting.pkl", "rb"))
 nltk.download('omw-1.4')
+nltk.download('stopwords')
 
 
 
